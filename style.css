@@ -429,6 +429,12 @@ a:hover {
     color: #E58E13;
     text-decoration: underline;
 }
+@media (max-width: 900px) {
+    .contatos p{
+        color: aliceblue;
+        font-size: 1em;
+    }
+}
 
 
 /*Fim Projetos ---------------------------------------------*/
