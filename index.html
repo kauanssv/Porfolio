@@ -16,11 +16,6 @@
     <header>
         <!--Menu inicio-->
             <div class="menu-container" id="inicio">
-                <div class="mobile-menu">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
-                </div>
                 <ul class="nav-list">
                     <li><a href="#quem_sou" class="menu_btn">QUEM SOU</a></li>
                     <li><a href="#formacao" class="menu_btn">FORMAÇÃO</a></li>
@@ -35,7 +30,12 @@
         <!--Banner inicio-->
         <section>
             <div class="image-container">
-                <img src="src/background_text.png" alt="imagem de fundo" id="img_background">
+                <img src="src/background.png" alt="imagem de fundo" id="img_background">
+                <div class="overlay_text">
+                    <p>OLA</p>
+                    <p>SEJA BEM VINDO</p>
+                </div>
+                
             </div>
             <div class="seta">
                 &#9660;
@@ -56,30 +56,32 @@
         <section>
             <div class="formacao_container">
                 <div class="formacao" id="formacao">
-                    <h1>
-                        FORMAÇÃO
-                    </h1>
+                    <h1>FORMAÇÃO</h1>
                 </div>
                 
                 <div class="timeline">
                     <ul>
                         <li>
-                            <div class="content_etec">
-                                <img src="src/etec.png" id="imgEtec">
-                                <p class="txtEtec">Comecei meus estudos na <span>ETEC</span> em 2019 e concluí o curso em 2021. Durante esse período, tive a oportunidade de aprender diversos aspectos da tecnologia, o que me proporcionou uma base sólida. No entanto, foi na programação web que encontrei minha verdadeira paixão. Desde então, tenho me dedicado a aprimorar meus conhecimentos nessa área, explorando tanto o desenvolvimento front-end quanto back-end, e buscando sempre novas maneiras de aplicar a tecnologia para criar soluções inovadoras.</p>
+                            <div class="content">
+                                <img src="src/etec.png" class="imgFormacao">
+                                <p class="txtFormacao" id="etec">
+                                    Comecei meus estudos na <span>ETEC</span> em 2019 e concluí o curso em 2021. Durante esse período, tive a oportunidade de aprender diversos aspectos da tecnologia, o que me proporcionou uma base sólida. No entanto, foi na programação web que encontrei minha verdadeira paixão. Desde então, tenho me dedicado a aprimorar meus conhecimentos nessa área, explorando tanto o desenvolvimento front-end quanto back-end, e buscando sempre novas maneiras de aplicar a tecnologia para criar soluções inovadoras.
+                                </p>
                             </div>
                         </li>
                         <li>
-                            <div class="content_unicid">
-                                <img src="src/unicid.png" id="imgUnicid">
-                                <p class="txtUnicid">Recentemente, comecei meus estudos na <span>UNICID</span> e tenho previsão de formatura para 2026. Durante essa jornada, pretendo expandir meus conhecimentos não apenas na minha graduação, mas também por meio de outros cursos simultâneos. Meu objetivo é aprimorar minhas habilidades em tecnologia, me manter atualizado com as tendências do setor e explorar novas áreas para me tornar um profissional cada vez mais completo.</p>
+                            <div class="content">
+                                <img src="src/unicid.png" class="imgFormacao" id="imgUnicid">
+                                <p class="txtFormacao" id="unicid">
+                                    Recentemente, comecei meus estudos na <span>UNICID</span> e tenho previsão de formatura para 2026. Durante essa jornada, pretendo expandir meus conhecimentos não apenas na minha graduação, mas também por meio de outros cursos simultâneos. Meu objetivo é aprimorar minhas habilidades em tecnologia, me manter atualizado com as tendências do setor e explorar novas áreas para me tornar um profissional cada vez mais completo.
+                                </p>
                             </div>
                         </li>
                     </ul>
                 </div>
-
             </div>
         </section>
+        
         <!--TIME LINE Fim-->
         <section>
             <div class="tecnologias_text">
