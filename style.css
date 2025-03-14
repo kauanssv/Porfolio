@@ -1,12 +1,15 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
 * {
     margin: 0;
+    padding: 0;
     font-family: 'Montserrat', sans-serif;
-    background-color: #24211E;
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
     box-sizing: border-box;
+}
+main{
+    background-color: #24211E;
 }
 
 
@@ -15,50 +18,75 @@
 
 header {
     width: 100%;
-    display: flex;
-    justify-content: space-between; 
+    background-color: #24211E;
 }
-
-.menu {
+.nav-list {
     display: flex;
-    gap: 20px; 
     padding-top: 40px;
+    text-align: center;
+    justify-content: space-around;
 }
-
 .menu_btn {
-    font-size: 1.1em;
+    font-size: 1.2em;
+    padding-left: 1%;
     color: aliceblue;
     text-decoration: none;
-    padding-left: 90px;
+    letter-spacing: 3px;
 }
 
 a:hover {
     color: #E58E13;
     transition: 0.4s;
 }
+@media (max-width: 917px) {
 
-@media (max-width: 1100px) {
+    .nav-list {
+        display: flex;
+        padding-top: 40px;
+        text-align: center;
+        justify-content: space-around;
+    }
+    .menu_btn {
+        font-size: 1.0em;
+        padding-left: 1%;
+        color: aliceblue;
+        text-decoration: none;
+        letter-spacing: 3px;
+    }
   
-    header {
-        flex-direction: column;
-        align-items: flex-start; 
-        padding: 10px;
-    }
+}
+@media (max-width: 800px) {
 
-    
-    .menu {
-        flex-direction: column;
-        align-items: flex-start; 
-        width: 100%; 
-        text-align: right; 
-        padding-left: 0; 
+    .nav-list {
+        display: flex;
+        padding-top: 40px;
+        text-align: center;
+        justify-content: space-around;
     }
+    .menu_btn {
+        font-size: 0.9em;
+        padding-left: 1%;
+        color: aliceblue;
+        text-decoration: none;
+        letter-spacing: 3px;
+    }
+  
+}
+@media (max-width: 720px) {
 
-    a {
-        width: 100%; 
-        padding-left: 0; 
-        padding: 3px; 
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+        text-align: center;
     }
+    .menu_btn {
+        font-size: 0.9em;
+        color: aliceblue;
+        text-decoration: none;
+
+    }
+  
 }
 
 
@@ -69,7 +97,7 @@ a:hover {
 .image-container{
     width: 100%; 
     height: auto;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .seta{
     color: #E58E13;
@@ -365,9 +393,10 @@ footer{
     width: 100%;
     height: 100px;
     text-align: center;
+    background-color: #C3792F;
 }
 #btn_voltar{
-    color: #E58E13;
+    color: black;
     text-decoration: none;
 }
 #btn_voltar:hover{
