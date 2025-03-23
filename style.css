@@ -19,7 +19,7 @@ main{
     height: 100%;
     object-fit: cover; /* Faz o gif cobrir a tela */
     z-index: 0; /* Mantém o GIF atrás do conteúdo */
-    opacity: 0.5%;
+    opacity: 0.6%;
     pointer-events: none;  /* Impede cliques e interações */
     user-select: none;     /* Impede seleção do GIF */
     -webkit-user-drag: none; /* Impede arrastar a imagem no Safari */
