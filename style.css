@@ -11,6 +11,22 @@
 main{
     background-color: #24211E;
 }
+#gif {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Faz o gif cobrir a tela */
+    z-index: 0; /* Mantém o GIF atrás do conteúdo */
+    opacity: 0.5%;
+    pointer-events: none;  /* Impede cliques e interações */
+    user-select: none;     /* Impede seleção do GIF */
+    -webkit-user-drag: none; /* Impede arrastar a imagem no Safari */
+}
+
+
+
 
 
 /*Inicio do menu ---------------------------------------------*/
@@ -131,7 +147,7 @@ a:hover {
     height: auto;
     display: block; 
     filter: blur(5px);
-    opacity: 70%;
+    opacity: 75%;
 }
 
 .overlay_text {
